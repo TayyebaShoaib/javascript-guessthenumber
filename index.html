@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width" />
+	<title>Guess_me_game (Loops)-v2</title>
+	<link rel="stylesheet" href="css/style.css" /
+</head>
+
+<body onload="">
+		<div id="main">
+			
+			<div id="score">
+				<img id="gameLogo" src="images/game_logo.png">
+				<p>There is something cool waiting behind one of these buttons...
+					You have to guess which one! you have total 3 guesses. Good luck!</p>
+				</div>
+				
+				<button class="showBtns" id="btn1" onclick="guessNumberGame.choose(this)">0</button>
+				<button class="showBtns" id="btn2" onclick="guessNumberGame.choose(this)">0</button>
+				<button class="showBtns" id="btn3" onclick="guessNumberGame.choose(this)">0</button>
+				<button class="showBtns" id="btn4" onclick="guessNumberGame.choose(this)">0</button>
+				<button class="showBtns" id="btn5" onclick="guessNumberGame.choose(this)">0</button>
+				
+				<div id="ctrlButtonDiv">
+					<button class="otherBtn" id="playBtn" onclick="guessNumberGame.clickPlay();">Play</button>
+					<button class="otherBtn" id="resetBtn" onclick="guessNumberGame.clickReset();">Reset</button>
+				</div>
+				
+			</div> <!-- End of Main -->
+
+			<script src="js/script.js"></script>
+		</body>
+</html>
